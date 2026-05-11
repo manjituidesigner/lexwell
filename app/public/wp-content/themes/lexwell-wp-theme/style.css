@@ -1,0 +1,17 @@
+﻿/*
+Theme Name: Lexwell
+Theme URI: https://lexwell.co.in/
+Author: Lexwell
+Author URI: https://lexwell.co.in/
+Description: Custom WordPress theme scaffold for Lexwell.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.6
+Requires PHP: 8.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: lexwell
+Tags: custom-theme
+*/
+
+/* Intentionally minimal. All custom CSS is centralized in /assets/css/main.css */

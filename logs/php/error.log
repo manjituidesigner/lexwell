@@ -1,0 +1,3 @@
+[11-May-2026 17:21:45 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in C:\Users\sanje\Local Sites\testone\app\public\wp-content\themes\lexwell-wp-theme\functions.php on line 3
+[11-May-2026 17:21:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\sanje\Local Sites\testone\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[11-May-2026 17:21:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\sanje\Local Sites\testone\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
