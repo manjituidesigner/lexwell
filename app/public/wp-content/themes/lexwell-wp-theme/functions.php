@@ -152,6 +152,43 @@ function lexwell_enqueue_assets(): void
         $theme_version
     );
 
+    // add new
+wp_enqueue_style(
+    'lexwell-global',
+    get_template_directory_uri() . '/assets/css/global.css',
+    ['lexwell-bootstrap', 'lexwell-plus-jakarta-font'],
+    $theme_version
+);
+
+wp_enqueue_style(
+    'lexwell-header',
+    get_template_directory_uri() . '/assets/css/header.css',
+    ['lexwell-global'],
+    $theme_version
+);
+
+wp_enqueue_style(
+    'lexwell-footer',
+    get_template_directory_uri() . '/assets/css/footer.css',
+    ['lexwell-global'],
+    $theme_version
+);
+
+wp_enqueue_style(
+    'lexwell-home',
+    get_template_directory_uri() . '/assets/css/home.css',
+    ['lexwell-global'],
+    $theme_version
+);
+
+wp_enqueue_style(
+    'lexwell-responsive',
+    get_template_directory_uri() . '/assets/css/responsive.css',
+    ['lexwell-global'],
+    $theme_version
+);
+    //
+
     if (is_singular() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');
     }

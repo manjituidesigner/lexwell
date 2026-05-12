@@ -60,22 +60,18 @@ get_header();
                         }
                         ?>
 
+                        <a class="lw-hero-media-play" href="#" aria-label="Play our reels" data-aos="fade-up" data-aos-delay="250">
+                            <span class="lw-hero-media-play-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 8l6 4-6 4V8Z" fill="currentColor"/><path d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20Z" stroke="currentColor" stroke-width="2"/></svg>
+                            </span>
+                            Play our reels
+                        </a>
+
                         <div class="lw-hero-float" data-aos="fade-up" data-aos-delay="350">
                             <div class="lw-hero-float-avatars" aria-hidden="true">
                                 <span></span><span></span><span></span>
                             </div>
                             <div class="lw-hero-float-text"><strong>39K+</strong> Happy clients all over world.</div>
-                        </div>
-
-                        <div class="lw-hero-card" data-aos="zoom-in" data-aos-delay="250">
-                            <div class="lw-hero-card-inner">
-                                <div class="lw-contact-mini">
-                                    <div class="lw-contact-mini-title">Need help? Feel free contact us</div>
-                                    <div class="lw-contact-mini-item"><span class="lw-contact-mini-label">Phone</span> <a href="tel:<?php echo esc_attr(str_replace(' ', '', $lexwell_phone)); ?>"><?php echo esc_html($lexwell_phone); ?></a></div>
-                                    <div class="lw-contact-mini-item"><span class="lw-contact-mini-label">Email</span> <a href="mailto:<?php echo esc_attr($lexwell_email); ?>"><?php echo esc_html($lexwell_email); ?></a></div>
-                                    <div class="lw-contact-mini-item"><span class="lw-contact-mini-label">Address</span> <span><?php echo esc_html($lexwell_address); ?></span></div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
